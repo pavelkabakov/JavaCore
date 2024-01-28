@@ -1,4 +1,8 @@
 package les_1.ex001;
+/**
+ * main
+ */
+
 
 import java.util.Scanner;
 
@@ -6,9 +10,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter two numbers: ");
-        double num1 = scanner.nextDouble();
-        double num2 = scanner.nextDouble();
+//        System.out.println("Enter two numbers: ");
+//        double num1 = scanner.nextDouble();
+//        double num2 = scanner.nextDouble();
+        double num1 = 4;
+        double num2 = 7;
+
 
         double sum = MathOperations.add(num1, num2);
         double difference = MathOperations.subtract(num1, num2);

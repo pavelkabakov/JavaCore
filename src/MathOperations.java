@@ -1,10 +1,10 @@
-package les_1.ex001;
-
-/**
- * operations
- */
-
 public class MathOperations {
+    /**
+     * MathOperations
+     * @param a
+     * @param b
+     * @return
+     */
     public static double add(double a, double b) {
         return a + b;
     }
